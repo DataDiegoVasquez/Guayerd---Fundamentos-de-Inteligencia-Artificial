@@ -144,34 +144,14 @@ El dataset representa las transacciones comerciales de un negocio minorista que 
 
 #### PASO 3: Análisis y Cálculos
 1. **Ventas por Categoría:**
-   - Agrupar detalle_ventas por categoría de producto
-   - Sumar importes por cada categoría
-   - Calcular porcentajes sobre total
 
 2. **Ranking de Productos:**
-   - Agrupar detalle_ventas por id_producto
-   - Sumar cantidades vendidas
-   - Sumar importes totales
-   - Ordenar descendente por cantidad y por importe
-   - Seleccionar top 10
 
 3. **Análisis por Ciudad:**
-   - Agrupar ventas por ciudad del cliente
-   - Contar cantidad de ventas por ciudad
-   - Sumar importes totales por ciudad
-   - Contar clientes únicos por ciudad
 
 4. **Análisis de Medios de Pago:**
-   - Agrupar ventas por medio_pago
-   - Contar cantidad de transacciones
-   - Sumar importes por medio de pago
-   - Calcular porcentaje de uso
 
 5. **Clientes Frecuentes:**
-   - Contar ventas por id_cliente
-   - Sumar importe total por cliente
-   - Ordenar por cantidad de compras descendente
-   - Seleccionar top 10
 
 #### PASO 4: Generación de Reportes
 1. Formatear resultados en tablas legibles
